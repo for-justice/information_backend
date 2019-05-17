@@ -4,8 +4,14 @@
   "description": "",
   "private": true,
   "dependencies": {
+    "egg-jwt": "^3.1.6",
+    "egg-scripts": "^2.10.0",
     "midway": "^1.0.0",
-    "egg-scripts": "^2.10.0"
+    "moment": "^2.24.0",
+    "pg": "^7.11.0",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.41.0",
+    "sequelize-typescript": "^0.6.10"
   },
   "devDependencies": {
     "@types/mocha": "^5.2.5",
@@ -14,9 +20,8 @@
     "midway-bin": "1",
     "midway-mock": "1",
     "tslib": "^1.8.1",
-    "tslint-midway-contrib": "1",
-    "ts-node": "^8.0.2",
-    "tslint": "^5.11.0",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.9.1",
     "typescript": "^3.2.0"
   },
   "engines": {

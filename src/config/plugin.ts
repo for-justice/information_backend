@@ -2,3 +2,9 @@
 // export = {
 //   static: true,
 // };
+export = {
+    jwt:{
+        enable:true,
+        package:'egg-jwt'
+    }
+}
